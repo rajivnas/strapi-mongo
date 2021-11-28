@@ -16,7 +16,7 @@ module.exports = {
     {
       resolve: `gatsby-source-strapi`,
       options: {
-        apiURL: process.env.API_URL,
+        apiURL: process.env.STRAPI_URL,
         queryLimit: 1000, // Defaults to 100
         collectionTypes: [`Teams`],
         singleTypes: [],
